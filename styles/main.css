@@ -6,3 +6,51 @@
   font-style: normal;
   font-display: swap;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+  background-image: url("../assets/images/greenery.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: max(35vw, 400px);
+  color: white;
+  position: relative;
+
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.logobar img {
+  width: 100px;
+  height: auto;
+}
+
+.logobar {
+  font-family: "Norse", serif;
+  background-color: rgba(0, 0, 0, 0.46);
+  font-size: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: 20vh;
+  padding: 16px 0;
+}
+
+.logo-text {
+  margin-bottom: -35px;
+}
+
+.credit {
+  margin-bottom: 16px;
+}
