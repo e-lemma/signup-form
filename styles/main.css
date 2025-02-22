@@ -33,7 +33,6 @@
 .logobar {
   font-family: "Norse", serif;
   background-color: rgba(0, 0, 0, 0.46);
-  font-size: 4.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,6 +44,7 @@
 
 .logo-text {
   margin-bottom: -35px;
+  font-size: 6rem;
 }
 
 .credit {
