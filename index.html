@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
-    <aside class="sidebar">
+    <aside class="sidebar-container">
       <div class="logo-container">
         <img src="assets/images/odin-lined.png" alt="Odin Project Logo" />
         <h1 class="logo-text">ODIN</h1>
@@ -20,5 +20,42 @@
         <a href="https://unsplash.com/">Unsplash</a>
       </footer>
     </aside>
+
+    <main class="form-container">
+      <header>
+        <h2>
+          This is not a real online service! You know you need something like
+          this in your life to help you realise your deepest dreams. Sign up
+          <i>now</i>
+          to get started
+        </h2>
+        <h2>You <i>know</i> you want to.</h2>
+      </header>
+      <form>
+        <div class="signup-info">
+          <h2>Let's do this!</h2>
+          <label for="first_name">FIRST NAME</label>
+          <input type="text" name="first_name" id="first_name" />
+          <label for="last_name">LAST NAME</label>
+          <input type="text" name="last_name" id="last_name" />
+          <label for="email">EMAIL</label>
+          <input type="email" name="email" id="email" />
+          <label for="phone_number">PHONE NUMBER</label>
+          <input type="tel" name="phone_number" id="phone_number" />
+          <label for="password">PASSWORD</label>
+          <input type="password" name="password" id="password" />
+          <label for="confirm_password">CONFIRM PASSWORD</label>
+          <input
+            type="password"
+            name="confirm_password"
+            id="confirm_password"
+          />
+        </div>
+        <div class="form-actions">
+          <button type="submit">Create Account</button>
+          <p>Already have an account? <a href="">Log In</a></p>
+        </div>
+      </form>
+    </main>
   </body>
 </html>
