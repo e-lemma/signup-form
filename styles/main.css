@@ -76,3 +76,14 @@ body {
 .credit a:focus {
   color: white;
 }
+
+/* FORM */
+
+.form-container header,
+.form-actions {
+  min-height: 35vh;
+}
+
+.signup-info {
+  min-height: 30vh;
+}
