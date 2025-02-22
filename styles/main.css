@@ -12,17 +12,33 @@
   padding: 0;
 }
 
+:root {
+  --green-accent: #596d48;
+  --input-default-border-color: #e5e7eb;
+}
+
+body {
+  display: flex;
+}
+
 /* SIDEBAR */
 
-.sidebar {
+.sidebar-container {
   background: url(../assets/images/greenery.jpg) center/cover no-repeat;
   height: 100vh;
-  width: max(35vw, 400px);
+  width: 35vw;
+  min-width: 350px;
   color: white;
   position: relative;
   display: flex;
   align-items: end;
   justify-content: center;
+}
+
+.form-container {
+  height: 100vh;
+  width: 65vw;
+  min-width: 650px;
 }
 
 .logo-container img {
