@@ -54,3 +54,12 @@
 .credit {
   margin-bottom: 16px;
 }
+
+.credit,
+.credit a {
+  color: rgb(215, 215, 215);
+}
+
+.credit a:hover {
+  color: white;
+}
