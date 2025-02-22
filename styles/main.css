@@ -25,12 +25,12 @@
   justify-content: center;
 }
 
-.logobar img {
+.logo-container img {
   width: 100px;
   height: auto;
 }
 
-.logobar {
+.logo-container {
   font-family: "Norse", serif;
   background-color: rgba(0, 0, 0, 0.46);
   display: flex;
