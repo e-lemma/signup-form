@@ -30,7 +30,6 @@ body {
   height: 100vh;
   width: 35vw;
   min-width: 350px;
-  color: white;
   position: relative;
   display: flex;
   align-items: end;
@@ -51,6 +50,7 @@ body {
 
 .logo-container {
   font-family: "Norse", serif;
+  color: white;
   background-color: rgba(0, 0, 0, 0.46);
   display: flex;
   justify-content: center;
