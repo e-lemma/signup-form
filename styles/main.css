@@ -129,6 +129,10 @@ form {
   width: max(20vw, 250px);
 }
 
+input[type="password"]:invalid {
+  border: 1px solid red;
+}
+
 .form-input-container label {
   font-size: 0.8rem;
   color: var(--form-label-color);
