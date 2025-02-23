@@ -124,8 +124,15 @@ form {
   margin-bottom: 1.2rem;
   border: var(--input-default-border-color) solid 1px;
   border-radius: 4px;
-  padding: 6px;
-  width: max(25vw, 250px);
+  padding: 8px;
+  width: max(20vw, 250px);
+}
+
+.form-input-container label {
+  font-size: 0.8rem;
+  color: var(--form-label-color);
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 
 .left-inputs,
