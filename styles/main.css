@@ -36,9 +36,10 @@ body {
 }
 
 .form-container {
-  height: 100vh;
   width: 65vw;
   min-width: 650px;
+  display: flex;
+  flex-direction: column;
 }
 
 .logo-container img {
@@ -79,11 +80,17 @@ body {
 
 /* FORM */
 
-.form-container header,
-.form-actions {
-  min-height: 35vh;
+form {
+  flex: 6.5;
+  display: flex;
+  flex-direction: column;
 }
 
-.signup-info {
-  min-height: 30vh;
+.form-container header,
+.form-actions {
+  flex: 3.5;
+}
+
+.form-inputs {
+  flex: 3;
 }
