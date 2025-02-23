@@ -18,6 +18,7 @@
   --input-default-border-color: #e5e7eb;
   --form-background-color: rgb(249 250 251);
   --form-label-color: rgb(31 41 55);
+  --transition-speed: 0.2s;
 }
 
 body {
@@ -167,6 +168,8 @@ input[type="password"]:invalid {
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
   margin-bottom: 2rem;
+  cursor: pointer;
+  transition: background-color var(--transition-speed) ease;
 }
 
 .form-actions button:hover {
