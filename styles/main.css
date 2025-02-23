@@ -103,6 +103,10 @@ form {
   padding-bottom: 60px;
 }
 
+.form-container header h2 {
+  font-weight: 500;
+}
+
 .form-actions {
   padding-top: 30px;
 }
