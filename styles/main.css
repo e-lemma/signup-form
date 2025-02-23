@@ -118,6 +118,7 @@ form {
 
 .form-input-container h2 {
   margin-bottom: 1.5rem;
+  font-weight: 500;
 }
 
 .form-input-container input {
