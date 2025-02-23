@@ -91,11 +91,37 @@ form {
 .form-actions {
   flex: 3.5;
   background-color: var(--form-background-color);
+  padding-left: 3rem;
+}
+
+.form-container header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 2rem;
+  padding-bottom: 60px;
+}
+
+.form-actions {
+  padding-top: 40px;
 }
 
 .form-input-container {
   flex: 3;
   background-color: white;
+  padding: 1rem 2rem;
+}
+
+.form-input-container h2 {
+  margin-bottom: 1.5rem;
+}
+
+.form-input-container input {
+  margin-bottom: 1.2rem;
+  border: var(--input-default-border-color) solid 1px;
+  border-radius: 4px;
+  padding: 6px;
+  width: max(25vw, 250px);
 }
 
 .left-inputs,
@@ -106,4 +132,6 @@ form {
 
 .form-inputs {
   display: flex;
+  justify-content: flex-start;
+  gap: 5rem;
 }
