@@ -16,6 +16,7 @@
   --green-accent: #596d48;
   --input-default-border-color: #e5e7eb;
   --form-background-color: rgb(249 250 251);
+  --form-label-color: rgb(31 41 55);
 }
 
 body {
