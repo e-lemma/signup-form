@@ -109,7 +109,10 @@ form {
 .form-input-container {
   flex: 3;
   background-color: white;
-  padding: 1rem 2rem;
+  padding: 1rem 2.5rem;
+  box-shadow: 0 6px 8px -2px rgba(0, 0, 0, 0.15);
+  position: relative;
+  border-top: 1px rgb(238, 238, 238) solid;
 }
 
 .form-input-container h2 {
