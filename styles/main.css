@@ -15,6 +15,7 @@
 :root {
   --green-accent: #596d48;
   --input-default-border-color: #e5e7eb;
+  --form-background-color: rgb(249 250 251);
 }
 
 body {
@@ -89,8 +90,20 @@ form {
 .form-container header,
 .form-actions {
   flex: 3.5;
+  background-color: var(--form-background-color);
+}
+
+.form-input-container {
+  flex: 3;
+  background-color: white;
+}
+
+.left-inputs,
+.right-inputs {
+  display: flex;
+  flex-direction: column;
 }
 
 .form-inputs {
-  flex: 3;
+  display: flex;
 }
